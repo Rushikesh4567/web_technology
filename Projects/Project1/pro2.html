@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple AI Chatbot</title>
+</head>
+<body>
+
+<script>
+
+    let userInput = prompt("You can say: hello, how are you, bye");
+
+    userInput = userInput.toLowerCase();
+
+    if (userInput === "hello") {
+        alert("Bot: Hi!  Nice to meet you.");
+    }
+    else if (userInput === "how are you") {
+        alert("Bot: I'm just a simple chatbot, but I'm doing great! ");
+    }
+    else if (userInput === "bye") {
+        alert("Bot: Goodbye! Have a nice day ");
+    }
+    else {
+        alert("Bot: Sorry, I don't understand that.");
+    }
+
+</script>
+
+</body>
+</html>

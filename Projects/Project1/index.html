@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personality Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Personality Checker</h1>
+        <p>Click the button below to start the test.</p>
+        <button onclick="startTest()">Start Test</button>
+    </div>
+
+<script>
+
+function startTest() {
+
+    let score = 0;
+
+    alert("Welcome to Personality Checker \nAnswer honestly!");
+
+    let q1 = prompt("1. Do you prefer:\nA. Reading a book \nB. Party with friends ");
+    if (q1 === "A" || q1 === "a") score++;
+
+    let q2 = prompt("2. When solving problems, you use:\nA. Logic \nB. Emotions ");
+    if (q2 === "A" || q2 === "a") score++;
+
+    let q3 = prompt("3. You feel more energetic during:\nA. Night \nB. Morning ☀");
+    if (q3 === "A" || q3 === "a") score++;
+
+    let q4 = prompt("4. You prefer:\nA. Planning everything \nB. Being spontaneous ");
+    if (q4 === "A" || q4 === "a") score++;
+
+    let q5 = prompt("5. You enjoy:\nA. Working alone \nB. Working in a team ");
+    if (q5 === "A" || q5 === "a") score++;
+
+    let result;
+
+    if (score >= 4) {
+        result = "You are a Logical & Introverted Thinker ";
+    }
+    else if (score >= 2) {
+        result = "You are a Balanced Personality ";
+    }
+    else {
+        result = "You are an Energetic & Social Personality ";
+    }
+
+    alert("Your Score: " + score + " / 5\n\nResult:\n" + result);
+}
+
+</script>
+
+</body>
+</html>
