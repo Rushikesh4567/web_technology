@@ -16,17 +16,17 @@ document.getElementById("focusForm").addEventListener("submit", function(event) 
     if (focusScore >= 70) {
         resultBox.style.backgroundColor = "#28a745";
         resultBox.style.color = "white";
-        resultBox.innerHTML = "🔥 High Focus! Score: " + focusScore;
+        resultBox.innerHTML = "High Focus! Score: " + focusScore;
     }
     else if (focusScore >= 40) {
         resultBox.style.backgroundColor = "#ffc107";
         resultBox.style.color = "black";
-        resultBox.innerHTML = "⚡ Moderate Focus. Score: " + focusScore;
+        resultBox.innerHTML = "Moderate Focus. Score: " + focusScore;
     }
     else {
         resultBox.style.backgroundColor = "#dc3545";
         resultBox.style.color = "white";
-        resultBox.innerHTML = "⚠️ Low Focus! Score: " + focusScore;
+        resultBox.innerHTML = " Low Focus! Score: " + focusScore;
     }
 
 });
