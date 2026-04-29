@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>Div Activity Using Directives</h2>
+
+  <!-- ngIf Directive -->
+  <button (click)="toggleBox()">Show / Hide Div</button>
+
+  <div *ngIf="showBox" class="box">
+    This div is controlled using *ngIf
+  </div>
+
+  <hr>
+
+  <!-- ngFor Directive -->
+  <h3>Student List using *ngFor</h3>
+
+  <div *ngFor="let student of students" class="student">
+    {{ student }}
+  </div>
+
+  <hr>
+
+  <!-- ngClass Directive -->
+  <button (click)="toggleClass()">Change Div Color</button>
+
+  <div [ngClass]="isActive ? 'active' : 'inactive'">
+    This div color changes using ngClass
+  </div>
+
+  <hr>
+
+  <!-- ngStyle Directive -->
+  <div [ngStyle]="{'background-color': 'lightblue', 'padding': '15px'}">
+    This div uses ngStyle
+  </div>
+</div>

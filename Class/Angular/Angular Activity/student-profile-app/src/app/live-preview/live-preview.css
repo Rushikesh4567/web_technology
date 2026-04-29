@@ -1,0 +1,14 @@
+.preview-card {
+  width: 300px;
+  padding: 20px;
+  margin: 30px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+}
