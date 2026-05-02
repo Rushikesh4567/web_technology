@@ -1,0 +1,16 @@
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  color: #333;
+}
+
+.home button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

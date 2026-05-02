@@ -1,0 +1,29 @@
+h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #00bcd4;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+button {
+  background-color: crimson;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
