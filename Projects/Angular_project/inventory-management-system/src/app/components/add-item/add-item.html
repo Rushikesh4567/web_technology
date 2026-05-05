@@ -2,34 +2,16 @@
 
 <form>
   <label>Item Name:</label>
-  <input 
-    type="text"
-    [(ngModel)]="itemName"
-    name="itemName"
-    placeholder="Enter item name"
-  >
+  <input type="text" [(ngModel)]="itemName" name="itemName" placeholder="Enter item name">
 
   <label>Category:</label>
-  <input 
-    type="text"
-    [(ngModel)]="category"
-    name="category"
-    placeholder="Enter category"
-  >
+  <input type="text" [(ngModel)]="category" name="category" placeholder="Enter category">
 
   <label>Quantity:</label>
-  <input 
-    type="number"
-    [(ngModel)]="quantity"
-    name="quantity"
-  >
+  <input type="number" [(ngModel)]="quantity" name="quantity">
 
   <label>Price:</label>
-  <input 
-    type="number"
-    [(ngModel)]="price"
-    name="price"
-  >
+  <input type="number" [(ngModel)]="price" name="price">
 
   <button type="button" (click)="addItem()">Add Item</button>
 </form>

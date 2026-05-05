@@ -9,5 +9,4 @@ import { RouterLink } from '@angular/router';
 })
 export class Home {
   appName = 'Inventory Management System';
-  imageUrl = 'https://cdn-icons-png.flaticon.com/512/679/679922.png';
 }

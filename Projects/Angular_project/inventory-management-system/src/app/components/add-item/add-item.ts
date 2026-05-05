@@ -10,6 +10,7 @@ import { InventoryService, InventoryItem } from '../../services/inventory';
   templateUrl: './add-item.html',
   styleUrl: './add-item.css'
 })
+
 export class AddItem {
 
   itemName: string = '';
@@ -20,7 +21,7 @@ export class AddItem {
   constructor(
     private inventoryService: InventoryService,
     private router: Router
-  ) {}
+  ) { }
 
   addItem(): void {
 
@@ -36,7 +37,8 @@ export class AddItem {
 
     alert('Item added successfully!');
 
-    // Navigate to inventory list page
+
     this.router.navigate(['/inventory']);
   }
 }
+
